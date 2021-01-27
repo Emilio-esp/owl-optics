@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .main-font {
+    @apply text-gray-500 font-bold text-xs tracking-widest font-arial;
+  },
+  .menu-hover {
+    @apply  pb-1 hover:text-gray-900 border-b border-opacity-0 border-gray-600 hover:border-opacity-100;
+  }
+}
+
+/* @layer base {
+  @font-face {
+    font-family: Proxima Nova;
+    font-weight: 400;
+    src: url(/fonts/proxima-nova/400-regular.woff) format("woff");
+  }
+  @font-face {
+    font-family: Proxima Nova;
+    font-weight: 500;
+    src: url(/fonts/proxima-nova/500-medium.woff) format("woff");
+  }
+} */
