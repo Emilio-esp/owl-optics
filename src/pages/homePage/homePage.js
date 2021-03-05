@@ -1,6 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const HomePage = ({ assignRef }) => {
+
+import PageContainer from "../../components/PageContainer";
+
+
+const HomePage = ({ assignRef }) => {  
   
   return (
     <div className="relative">
@@ -16,22 +21,21 @@ const HomePage = ({ assignRef }) => {
       </div>
       <div
         ref={assignRef}
-        className="h-screen container m-auto flex justify-center items-center"
+        className="h-screen container m-auto flex justify-center items-start"
       >
-        <div
-          id="home-menu"
-          className="w-9/12 sm:w-10/12 md:w-10/12 lg:w-11/12 h-3/4 mt-12"
-        >
-          <a href="/shop">
-            <video
-              className="h-full w-full object-cover"
-              src="https://www.owloptics.com/assets/owl_intro.mp4"
-              autoPlay
-              muted
-              loop
-            ></video>
-          </a>
-        </div>
+        <PageContainer id="home-menu">
+          <div className="h-3/4">
+            <Link to="/shop">
+              <video
+                className="h-full w-full object-cover"
+                src="https://www.owloptics.com/assets/owl_intro.mp4"
+                autoPlay
+                muted
+                loop
+              ></video>
+            </Link>
+          </div>
+        </PageContainer>
       </div>
     </div>
   );

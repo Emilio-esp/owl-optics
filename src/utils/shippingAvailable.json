@@ -1,0 +1,768 @@
+{
+    "US": {
+        "name": "United States",
+        "code": "US",
+        "states": [
+            {
+                "code": "AL",
+                "name": "Alabama"
+            },
+            {
+                "code": "AK",
+                "name": "Alaska"
+            },
+            {
+                "code": "AZ",
+                "name": "Arizona"
+            },
+            {
+                "code": "AR",
+                "name": "Arkansas"
+            },
+            {
+                "code": "CA",
+                "name": "California"
+            },
+            {
+                "code": "CO",
+                "name": "Colorado"
+            },
+            {
+                "code": "CT",
+                "name": "Connecticut"
+            },
+            {
+                "code": "DE",
+                "name": "Delaware"
+            },
+            {
+                "code": "DC",
+                "name": "District Of Columbia"
+            },
+            {
+                "code": "FL",
+                "name": "Florida"
+            },
+            {
+                "code": "GA",
+                "name": "Georgia"
+            },
+            {
+                "code": "HI",
+                "name": "Hawaii"
+            },
+            {
+                "code": "ID",
+                "name": "Idaho"
+            },
+            {
+                "code": "IL",
+                "name": "Illinois"
+            },
+            {
+                "code": "IN",
+                "name": "Indiana"
+            },
+            {
+                "code": "IA",
+                "name": "Iowa"
+            },
+            {
+                "code": "KS",
+                "name": "Kansas"
+            },
+            {
+                "code": "KY",
+                "name": "Kentucky"
+            },
+            {
+                "code": "LA",
+                "name": "Louisiana"
+            },
+            {
+                "code": "ME",
+                "name": "Maine"
+            },
+            {
+                "code": "MD",
+                "name": "Maryland"
+            },
+            {
+                "code": "MA",
+                "name": "Massachusetts"
+            },
+            {
+                "code": "MI",
+                "name": "Michigan"
+            },
+            {
+                "code": "MN",
+                "name": "Minnesota"
+            },
+            {
+                "code": "MS",
+                "name": "Mississippi"
+            },
+            {
+                "code": "MO",
+                "name": "Missouri"
+            },
+            {
+                "code": "MT",
+                "name": "Montana"
+            },
+            {
+                "code": "NE",
+                "name": "Nebraska"
+            },
+            {
+                "code": "NV",
+                "name": "Nevada"
+            },
+            {
+                "code": "NH",
+                "name": "New Hampshire"
+            },
+            {
+                "code": "NJ",
+                "name": "New Jersey"
+            },
+            {
+                "code": "NM",
+                "name": "New Mexico"
+            },
+            {
+                "code": "NY",
+                "name": "New York"
+            },
+            {
+                "code": "NC",
+                "name": "North Carolina"
+            },
+            {
+                "code": "ND",
+                "name": "North Dakota"
+            },
+            {
+                "code": "OH",
+                "name": "Ohio"
+            },
+            {
+                "code": "OK",
+                "name": "Oklahoma"
+            },
+            {
+                "code": "OR",
+                "name": "Oregon"
+            },
+            {
+                "code": "PA",
+                "name": "Pennsylvania"
+            },
+            {
+                "code": "RI",
+                "name": "Rhode Island"
+            },
+            {
+                "code": "SC",
+                "name": "South Carolina"
+            },
+            {
+                "code": "SD",
+                "name": "South Dakota"
+            },
+            {
+                "code": "TN",
+                "name": "Tennessee"
+            },
+            {
+                "code": "TX",
+                "name": "Texas"
+            },
+            {
+                "code": "UT",
+                "name": "Utah"
+            },
+            {
+                "code": "VT",
+                "name": "Vermont"
+            },
+            {
+                "code": "VA",
+                "name": "Virginia"
+            },
+            {
+                "code": "WA",
+                "name": "Washington"
+            },
+            {
+                "code": "WV",
+                "name": "West Virginia"
+            },
+            {
+                "code": "WI",
+                "name": "Wisconsin"
+            },
+            {
+                "code": "WY",
+                "name": "Wyoming"
+            },
+            {
+                "code": "PR",
+                "name": "Puerto Rico"
+            },
+            {
+                "code": "VI",
+                "name": "Virgin Islands"
+            },
+            {
+                "code": "MP",
+                "name": "Northern Mariana Islands"
+            },
+            {
+                "code": "GU",
+                "name": "Guam"
+            },
+            {
+                "code": "AS",
+                "name": "American Samoa"
+            },
+            {
+                "code": "PW",
+                "name": "Palau"
+            },
+            {
+                "code": "AA",
+                "name": "Armed Forces (AA)"
+            },
+            {
+                "code": "AE",
+                "name": "Armed Forces (AE)"
+            },
+            {
+                "code": "AP",
+                "name": "Armed Forces (AP)"
+            }
+        ]
+    },
+    "CA": {
+        "name": "Canada",
+        "code": "CA",
+        "states": [
+            {
+                "code": "AB",
+                "name": "Alberta"
+            },
+            {
+                "code": "BC",
+                "name": "British Columbia"
+            },
+            {
+                "code": "MB",
+                "name": "Manitoba"
+            },
+            {
+                "code": "NB",
+                "name": "New Brunswick"
+            },
+            {
+                "code": "NL",
+                "name": "Newfoundland and Labrador"
+            },
+            {
+                "code": "NS",
+                "name": "Nova Scotia"
+            },
+            {
+                "code": "NU",
+                "name": "Nunavut"
+            },
+            {
+                "code": "NT",
+                "name": "Northwest Territories"
+            },
+            {
+                "code": "ON",
+                "name": "Ontario"
+            },
+            {
+                "code": "PE",
+                "name": "Prince Edward Island"
+            },
+            {
+                "code": "QC",
+                "name": "Quebec"
+            },
+            {
+                "code": "SK",
+                "name": "Saskatchewan"
+            },
+            {
+                "code": "YT",
+                "name": "Yukon"
+            }
+        ]
+    },
+    "UK":{
+        "name": "United Kingdom",
+        "code": "UK",
+        "states": [
+            {
+                "code": "Avon",
+                "name": "Avon"
+            },
+            {
+                "code": "Bedfordshire",
+                "name": "Bedfordshire"
+            },
+            {
+                "code": "Berkshire",
+                "name": "Berkshire"
+            },
+            {
+                "code": "Bristol",
+                "name": "Bristol"
+            },
+            {
+                "code": "Buckinghamshire",
+                "name": "Buckinghamshire"
+            },
+            {
+                "code": "Cambridgeshire",
+                "name": "Cambridgeshire"
+            },
+            {
+                "code": "Cheshire",
+                "name": "Cheshire"
+            },
+            {
+                "code": "Cleveland",
+                "name": "Cleveland"
+            },
+            {
+                "code": "Cornwall",
+                "name": "Cornwall"
+            },
+            {
+                "code": "Cumbria",
+                "name": "Cumbria"
+            },
+            {
+                "code": "Derbyshire",
+                "name": "Derbyshire"
+            },
+            {
+                "code": "Devon",
+                "name": "Devon"
+            },
+            {
+                "code": "Dorset",
+                "name": "Dorset"
+            },
+            {
+                "code": "Durham",
+                "name": "Durham"
+            },
+            {
+                "code": "East Riding of Yorkshire",
+                "name": "East Riding of Yorkshire"
+            },
+            {
+                "code": "East Sussex",
+                "name": "East Sussex"
+            },
+            {
+                "code": "Essex",
+                "name": "Essex"
+            },
+            {
+                "code": "Gloucestershire",
+                "name": "Gloucestershire"
+            },
+            {
+                "code": "Greater Manchester",
+                "name": "Greater Manchester"
+            },
+            {
+                "code": "Hampshire",
+                "name": "Hampshire"
+            },
+            {
+                "code": "Herefordshire",
+                "name": "Herefordshire"
+            },
+            {
+                "code": "Hertfordshire",
+                "name": "Hertfordshire"
+            },
+            {
+                "code": "Humberside",
+                "name": "Humberside"
+            },
+            {
+                "code": "Isle of Wight",
+                "name": "Isle of Wight"
+            },
+            {
+                "code": "Isles of Scilly",
+                "name": "Isles of Scilly"
+            },
+            {
+                "code": "Kent",
+                "name": "Kent"
+            },
+            {
+                "code": "Lancashire",
+                "name": "Lancashire"
+            },
+            {
+                "code": "Leicestershire",
+                "name": "Leicestershire"
+            },
+            {
+                "code": "Lincolnshire",
+                "name": "Lincolnshire"
+            },
+            {
+                "code": "London",
+                "name": "London"
+            },
+            {
+                "code": "Merseyside",
+                "name": "Merseyside"
+            },
+            {
+                "code": "Middlesex",
+                "name": "Middlesex"
+            },
+            {
+                "code": "Norfolk",
+                "name": "Norfolk"
+            },
+            {
+                "code": "North Yorkshire",
+                "name": "North Yorkshire"
+            },
+            {
+                "code": "Northamptonshire",
+                "name": "Northamptonshire"
+            },
+            {
+                "code": "Northumberland",
+                "name": "Northumberland"
+            },
+            {
+                "code": "Nottinghamshire",
+                "name": "Nottinghamshire"
+            },
+            {
+                "code": "Oxfordshire",
+                "name": "Oxfordshire"
+            },
+            {
+                "code": "Rutland",
+                "name": "Rutland"
+            },
+            {
+                "code": "Shropshire",
+                "name": "Shropshire"
+            },
+            {
+                "code": "Somerset",
+                "name": "Somerset"
+            },
+            {
+                "code": "South Yorkshire",
+                "name": "South Yorkshire"
+            },
+            {
+                "code": "Staffordshire",
+                "name": "Staffordshire"
+            },
+            {
+                "code": "Suffolk",
+                "name": "Suffolk"
+            },
+            {
+                "code": "Surrey",
+                "name": "Surrey"
+            },
+            {
+                "code": "Tyne and Wear",
+                "name": "Tyne and Wear"
+            },
+            {
+                "code": "Warwickshire",
+                "name": "Warwickshire"
+            },
+            {
+                "code": "West Midlands",
+                "name": "West Midlands"
+            },
+            {
+                "code": "West Sussex",
+                "name": "West Sussex"
+            },
+            {
+                "code": "West Yorkshire",
+                "name": "West Yorkshire"
+            },
+            {
+                "code": "Wiltshire",
+                "name": "Wiltshire"
+            },
+            {
+                "code": "Worcestershire",
+                "name": "Worcestershire"
+            },
+            {
+                "code": "Antrim",
+                "name": "Antrim"
+            },
+            {
+                "code": "Armagh",
+                "name": "Armagh"
+            },
+            {
+                "code": "Down",
+                "name": "Down"
+            },
+            {
+                "code": "Fermanagh",
+                "name": "Fermanagh"
+            },
+            {
+                "code": "Londonderry",
+                "name": "Londonderry"
+            },
+            {
+                "code": "Tyrone",
+                "name": "Tyrone"
+            },
+            {
+                "code": "Aberdeen City",
+                "name": "Aberdeen City"
+            },
+            {
+                "code": "Aberdeenshire",
+                "name": "Aberdeenshire"
+            },
+            {
+                "code": "Angus",
+                "name": "Angus"
+            },
+            {
+                "code": "Argyll and Bute",
+                "name": "Argyll and Bute"
+            },
+            {
+                "code": "Borders",
+                "name": "Borders"
+            },
+            {
+                "code": "Clackmannan",
+                "name": "Clackmannan"
+            },
+            {
+                "code": "Dumfries and Galloway",
+                "name": "Dumfries and Galloway"
+            },
+            {
+                "code": "Dundee (City of)",
+                "name": "Dundee (City of)"
+            },
+            {
+                "code": "East Ayrshire",
+                "name": "East Ayrshire"
+            },
+            {
+                "code": "East Dunbartonshire",
+                "name": "East Dunbartonshire"
+            },
+            {
+                "code": "East Lothian",
+                "name": "East Lothian"
+            },
+            {
+                "code": "East Renfrewshire",
+                "name": "East Renfrewshire"
+            },
+            {
+                "code": "Edinburgh (City of)",
+                "name": "Edinburgh (City of)"
+            },
+            {
+                "code": "Falkirk",
+                "name": "Falkirk"
+            },
+            {
+                "code": "Fife",
+                "name": "Fife"
+            },
+            {
+                "code": "Glasgow (City of)",
+                "name": "Glasgow (City of)"
+            },
+            {
+                "code": "Highland",
+                "name": "Highland"
+            },
+            {
+                "code": "Inverclyde",
+                "name": "Inverclyde"
+            },
+            {
+                "code": "Midlothian",
+                "name": "Midlothian"
+            },
+            {
+                "code": "Moray",
+                "name": "Moray"
+            },
+            {
+                "code": "North Ayrshire",
+                "name": "North Ayrshire"
+            },
+            {
+                "code": "North Lanarkshire",
+                "name": "North Lanarkshire"
+            },
+            {
+                "code": "Orkney",
+                "name": "Orkney"
+            },
+            {
+                "code": "Perthshire and Kinross",
+                "name": "Perthshire and Kinross"
+            },
+            {
+                "code": "Renfrewshire",
+                "name": "Renfrewshire"
+            },
+            {
+                "code": "Shetland",
+                "name": "Shetland"
+            },
+            {
+                "code": "South Ayrshire",
+                "name": "South Ayrshire"
+            },
+            {
+                "code": "South Lanarkshire",
+                "name": "South Lanarkshire"
+            },
+            {
+                "code": "Stirling",
+                "name": "Stirling"
+            },
+            {
+                "code": "West Dunbartonshire",
+                "name": "West Dunbartonshire"
+            },
+            {
+                "code": "West Lothian",
+                "name": "West Lothian"
+            },
+            {
+                "code": "Western Isles",
+                "name": "Western Isles"
+            },
+            {
+                "code": "Blaenau Gwent",
+                "name": "Blaenau Gwent"
+            },
+            {
+                "code": "Bridgend",
+                "name": "Bridgend"
+            },
+            {
+                "code": "Caerphilly",
+                "name": "Caerphilly"
+            },
+            {
+                "code": "Cardiff",
+                "name": "Cardiff"
+            },
+            {
+                "code": "Carmarthenshire",
+                "name": "Carmarthenshire"
+            },
+            {
+                "code": "Ceredigion",
+                "name": "Ceredigion"
+            },
+            {
+                "code": "Conwy",
+                "name": "Conwy"
+            },
+            {
+                "code": "Denbighshire",
+                "name": "Denbighshire"
+            },
+            {
+                "code": "Flintshire",
+                "name": "Flintshire"
+            },
+            {
+                "code": "Gwynedd",
+                "name": "Gwynedd"
+            },
+            {
+                "code": "Isle of Anglesey",
+                "name": "Isle of Anglesey"
+            },
+            {
+                "code": "Merthyr Tydfil",
+                "name": "Merthyr Tydfil"
+            },
+            {
+                "code": "Monmouthshire",
+                "name": "Monmouthshire"
+            },
+            {
+                "code": "Neath Port Talbot",
+                "name": "Neath Port Talbot"
+            },
+            {
+                "code": "Newport",
+                "name": "Newport"
+            },
+            {
+                "code": "Pembrokeshire",
+                "name": "Pembrokeshire"
+            },
+            {
+                "code": "Powys",
+                "name": "Powys"
+            },
+            {
+                "code": "Rhondda Cynon Taff",
+                "name": "Rhondda Cynon Taff"
+            },
+            {
+                "code": "Swansea",
+                "name": "Swansea"
+            },
+            {
+                "code": "Torfaen",
+                "name": "Torfaen"
+            },
+            {
+                "code": "The Vale of Glamorgan",
+                "name": "The Vale of Glamorgan"
+            },
+            {
+                "code": "Wrexham",
+                "name": "Wrexham"
+            },
+            {
+                "code": "Channel Islands",
+                "name": "Channel Islands"
+            },
+            {
+                "code": "Isle of Man",
+                "name": "Isle of Man"
+            }
+        ]
+    }
+}
