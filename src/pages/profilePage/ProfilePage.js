@@ -1,8 +1,9 @@
 import React, { useState} from "react";
 import { useSelector, useDispatch } from "react-redux";
+import { useHistory} from "react-router-dom";
 
-import useInput from "../../hoc/useInput";
-import useSelect from "../../hoc/useSelect";
+import useInput from "../../hooks/useInput";
+import useSelect from "../../hooks/useSelect";
 
 import Loader from "../../components/Loader";
 import PageContainer from "../../components/PageContainer";
@@ -36,6 +37,7 @@ const getCountries = () => {
 const ProfilePage = () => {
   const currentUser = useSelector((state) => state.user);
   const dispatch = useDispatch();
+  const history = useHistory();
   const [showAlert, setShowAlert] = useState(false);
 
   const userCountry = currentUser.data.country ? currentUser.data.country : "US";
@@ -138,6 +140,12 @@ const ProfilePage = () => {
       })
     );
     setShowAlert(true);
+
+    const previusRoute = localStorage.getItem("last_path_owloptics");
+    
+    if (previusRoute === "/costumer/checkout") {
+      history.goBack();
+    }
   };
 
   const setStatesFromCountry = (country)=>{

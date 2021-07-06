@@ -8,7 +8,7 @@ const Select = ({ label, options, handleOnchange, defaultValueSelected }) => {
   const handleOnchangeEvent = (e) => {
     const country = e.target.value;
     setOptionSelected(country);
-    handleOnchange(country);
+    handleOnchange(country, label);
   };
 
   return (

@@ -29,7 +29,7 @@ const Panel = ({ links, side, inView  }) => {
   // console.log(location.pathname, inView);
   return (
     <div
-      className={`transition duration-1000 ease-in-out transform rotate-90 fixed top-1/2 z-10 ${sideClass} opacity-0  ${
+      className={`transition duration-1000 ease-in-out transform rotate-90 fixed z-10 top-1/2 ${sideClass} opacity-0  ${
         inView ? " opacity-100" : "pointer-events-none"
       }`}
     >

@@ -1,0 +1,588 @@
+[
+    {
+        "name": "ZWEI",
+        "description": "The ZWEI. Square-shaped glasses, the way square shaped glasses should be: graphic, minimal and not too small – with a touch of dapper athleticism. The EINS is unisex-y.",
+        "price": "150",
+        "colors": [
+            {
+                "name": "Midnight",
+                "color": "#1E263B",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/1/1/eins_midnight_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/1/2/eins_midnight_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/1/3/eins_midnight_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/2/4/eins_midnight_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/2/5/eins_midnight_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/2/6/eins_midnight_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Dolomite",
+                "color": "#AD9F96",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/7/19/eins_dolomite_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/7/20/eins_dolomite_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/7/21/eins_dolomite_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/8/22/eins_dolomite_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/8/23/eins_dolomite_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/8/24/eins_dolomite_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Glacier",
+                "color": "#B6DBEB",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/9/25/eins_glacier_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/9/26/eins_glacier_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/9/27/eins_glacier_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/10/28/eins_glacier_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/10/29/eins_glacier_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/10/30/eins_glacier_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Nude",
+                "color": "#EEC9AE",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/5/13/eins_nude_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/5/14/eins_nude_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/5/15/eins_nude_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/6/16/eins_nude_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/6/17/eins_nude_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/6/18/eins_nude_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Palisander",
+                "color": "#1E263B",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/3/7/eins_palisander_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/3/8/eins_palisander_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/3/9/eins_palisander_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/4/10/eins_palisander_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/4/11/eins_palisander_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/4/12/eins_palisander_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "VIER",
+        "description": "The VIER. Clear-cut and elegant, they are the most compact OWLS to date and a direct nod to fine taste (as fast cars). The VIER is unisex-y.",
+        "price": "150",
+        "colors": [
+            {
+                "name": "Midnight",
+                "color": "#1E263B",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/31/91/vier_midnight_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/31/92/vier_midnight_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/31/93/vier_midnight_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/32/94/vier_midnight_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/32/95/vier_midnight_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/32/96/vier_midnight_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Dolomite",
+                "color": "#AD9F96",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/37/109/vier_dolomite_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/37/110/vier_dolomite_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/37/111/vier_dolomite_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/38/112/vier_dolomite_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/38/113/vier_dolomite_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/38/114/vier_dolomite_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Glacier",
+                "color": "#B6DBEB",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/39/115/vier_glacier_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/39/116/vier_glacier_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/39/117/vier_glacier_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/40/118/vier_glacier_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/40/119/vier_glacier_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/40/120/vier_glacier_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Nude",
+                "color": "#EEC9AE",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/35/103/vier_nude_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/35/104/vier_nude_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/35/105/vier_nude_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/36/106/vier_nude_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/36/107/vier_nude_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/36/108/vier_nude_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Palisander",
+                "color": "#1E263B",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/33/97/vier_palisander_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/33/98/vier_palisander_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/33/99/vier_palisander_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/34/100/vier_palisander_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/34/101/vier_palisander_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/34/102/vier_palisander_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "DREI",
+        "description": "The DREI. Big, beautiful, and inspired by the cat-eye glasses of the 1950s. The DREI is timeless and unisex-y.",
+        "price": "150",
+        "colors": [
+            {
+                "name": "Midnight",
+                "color": "#1E263B",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/21/61/drei_midnight_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/21/62/drei_midnight_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/21/63/drei_midnight_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/22/64/drei_midnight_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/22/65/drei_midnight_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/22/66/drei_midnight_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Dolomite",
+                "color": "#AD9F96",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/27/79/drei_dolomite_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/27/80/drei_dolomite_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/27/81/drei_dolomite_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/28/82/drei_dolomite_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/28/83/drei_dolomite_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/28/84/drei_dolomite_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Glacier",
+                "color": "#B6DBEB",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/29/85/drei_glacier_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/29/86/drei_glacier_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/29/87/drei_glacier_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/30/88/drei_glacier_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/30/89/drei_glacier_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/30/90/drei_glacier_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Nude",
+                "color": "#EEC9AE",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/25/73/drei_nude_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/25/74/drei_nude_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/25/75/drei_nude_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/26/76/drei_nude_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/26/77/drei_nude_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/26/78/drei_nude_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Palisander",
+                "color": "#1E263B",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/23/67/drei_palisander_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/23/68/drei_palisander_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/23/69/drei_palisander_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/24/70/drei_palisander_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/24/71/drei_palisander_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/24/72/drei_palisander_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "FUNF",
+        "description": "The FUNF. Lovably nonchalant, to swanky and audacious: round glasses that make you yearn for round glasses. The FÜNF is unisex-y.",
+        "price": "150",
+        "colors": [
+            {
+                "name": "Midnight",
+                "color": "#1E263B",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/41/121/funf_midnight_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/41/122/funf_midnight_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/41/123/funf_midnight_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/42/124/funf_midnight_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/42/125/funf_midnight_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/42/126/funf_midnight_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Dolomite",
+                "color": "#AD9F96",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/47/139/funf_dolomite_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/47/140/funf_dolomite_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/47/141/funf_dolomite_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/48/142/funf_dolomite_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/48/143/funf_dolomite_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/48/144/funf_dolomite_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Glacier",
+                "color": "#B6DBEB",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/49/145/funf_glacier_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/49/146/funf_glacier_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/49/147/funf_glacier_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/50/148/funf_glacier_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/50/149/funf_glacier_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/50/150/funf_glacier_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Nude",
+                "color": "#EEC9AE",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/45/133/funf_nude_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/45/134/funf_nude_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/45/135/funf_nude_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/46/136/funf_nude_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/46/137/funf_nude_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/46/138/funf_nude_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Palisander",
+                "color": "#1E263B",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/43/127/funf_palisander_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/43/128/funf_palisander_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/43/129/funf_palisander_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/44/130/funf_palisander_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/44/131/funf_palisander_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/44/132/funf_palisander_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "EINS",
+        "description": "The EINS. Square-shaped glasses, the way square shaped glasses should be: graphic, minimal and not too small – with a touch of dapper athleticism. The EINS is unisex-y.",
+        "price": "150",
+        "colors": [
+            {
+                "name": "Midnight",
+                "color": "#1E263B",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/1/1/eins_midnight_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/1/2/eins_midnight_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/1/3/eins_midnight_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/2/4/eins_midnight_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/2/5/eins_midnight_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/2/6/eins_midnight_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Dolomite",
+                "color": "#AD9F96",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/7/19/eins_dolomite_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/7/20/eins_dolomite_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/7/21/eins_dolomite_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/8/22/eins_dolomite_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/8/23/eins_dolomite_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/8/24/eins_dolomite_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Glacier",
+                "color": "#B6DBEB",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/9/25/eins_glacier_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/9/26/eins_glacier_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/9/27/eins_glacier_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/10/28/eins_glacier_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/10/29/eins_glacier_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/10/30/eins_glacier_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Nude",
+                "color": "#EEC9AE",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/5/13/eins_nude_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/5/14/eins_nude_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/5/15/eins_nude_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/6/16/eins_nude_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/6/17/eins_nude_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/6/18/eins_nude_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Palisander",
+                "color": "#1E263B",
+                "lenses": [
+                    {
+                        "type": "glasses",
+                        "glasses": "https://www.owloptics.com/images/article/3/7/eins_palisander_glasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/3/8/eins_palisander_glasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/3/9/eins_palisander_glasses_f_d4.jpg"
+                        ]
+                    },
+                    {
+                        "type": "sunglasses",
+                        "glasses": "https://www.owloptics.com/images/article/4/10/eins_palisander_sunglasses_d4.jpg",
+                        "models": [
+                            "https://www.owloptics.com/images/article/4/11/eins_palisander_sunglasses_m_d4.jpg",
+                            "https://www.owloptics.com/images/article/4/12/eins_palisander_sunglasses_f_d4.jpg"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]   
+

@@ -1,5 +1,7 @@
 import { encodeValue } from "../utils/localstorage";
 
+const KEY_USER = "user_owloptics";
+
 const SIGN_IN_USER_START = "SIGN_IN_USER_START";
 const SIGN_IN_USER_SUCCESS = "SIGN_IN_USER_SUCCESS";
 const SIGN_IN_USER_ERROR = "SIGN_IN_USER_ERROR";
@@ -11,7 +13,7 @@ const UPDATE_USER_INFORMATION_SUCCESS = "UPDATE_USER_INFORMATION_SUCCESS";
 const UPDATE_USER_INFORMATION_ERROR = "UPDATE_USER_INFORMATION_ERROR";
 
 const initialState = {
-  initialRenderApp:null,
+  initialRenderApp: null,
   loading: false,
   data: null,
   error: null,
@@ -36,7 +38,6 @@ export const signOut = () => ({
   type: SIGN_OUT_USER,
   payload: {},
 });
-
 
 export const updateUserInformationStart = (payload) => ({
   type: UPDATE_USER_INFORMATION_START,
@@ -66,7 +67,7 @@ export default function reducer(state = initialState, action) {
         ...state,
         data: action.payload,
         loading: false,
-        initialRenderApp:true,
+        initialRenderApp: true,
       };
     }
     case SIGN_IN_USER_ERROR: {
@@ -74,27 +75,27 @@ export default function reducer(state = initialState, action) {
         ...state,
         loading: false,
         error: action.payload,
-        initialRenderApp:true,
+        initialRenderApp: true,
       };
     }
     case SIGN_OUT_USER: {
       return {
         ...state,
         data: null,
-        loading:false
+        loading: false,
       };
     }
     case UPDATE_USER_INFORMATION_START: {
       return {
         ...state,
-        loading:true,
+        loading: true,
       };
     }
     case UPDATE_USER_INFORMATION_SUCCESS: {
       return {
         ...state,
         data: action.payload,
-        loading: false
+        loading: false,
       };
     }
     case UPDATE_USER_INFORMATION_ERROR: {
@@ -109,106 +110,117 @@ export default function reducer(state = initialState, action) {
   }
 }
 
+export const userLogin = () => async (dispatch, getState, firebase) => {
+  const doAuthGoogleWithPopUp = firebase.doAuthGoogleWithPopUp;
+  const saveData = firebase.saveData;
 
-export const userLogin  = () =>
-  async(dispatch, getState, firebase ) => {
-    const doAuthGoogleWithPopUp = firebase.doAuthGoogleWithPopUp;
-    const saveData = firebase.saveData;
-    
-    dispatch(signInStart());
-    
-    try {
-      const userInfo = await doAuthGoogleWithPopUp();
-      console.log(userInfo);
+  dispatch(signInStart());
 
-      const dataForFirebase = {
-        name: userInfo.given_name,
-        surname: userInfo.family_name,
-        picture: userInfo.picture,
-        email: userInfo.email,
-      };
+  try {
+    const userInfo = await doAuthGoogleWithPopUp();
+    // console.log(userInfo);
 
-      const user = await saveData({
-        collection: "users",
-        data: dataForFirebase,
-        id: userInfo.id,
-      });
+    const dataForFirebase = {
+      name: userInfo.given_name,
+      surname: userInfo.family_name,
+      picture: userInfo.picture,
+      email: userInfo.email,
+    };
 
-      // console.log(user);
+    const user = await saveData({
+      collection: "users",
+      data: dataForFirebase,
+      id: userInfo.id,
+    });
 
-      dispatch(signInSuccess(user));
+    // console.log(user);
 
-      console.log(getState());
+    dispatch(signInSuccess(user));
 
-      let userLocalStotage = encodeValue({ id_token: userInfo.idToken });
-      window.localStorage.setItem("user_owloptics", userLocalStotage); 
-    } catch (error) {
+    console.log(getState());
 
-      dispatch(signInError(error))
+    let userLocalStotage = encodeValue({ id_token: userInfo.idToken });
+    window.localStorage.setItem(KEY_USER, userLocalStotage);
+  } catch (error) {
+    dispatch(signInError(error));
+  }
+};
+
+export const reSignInWithCredentials = () => async (
+  dispatch,
+  getState,
+  firebase
+) => {
+
+  const doAuthGoogleWithCredentials = firebase.doAuthGoogleWithCredentials;
+  const getDocumentById = firebase.getDocumentById;
+
+  dispatch(signInStart());
+
+  try {
+    const user = await doAuthGoogleWithCredentials();
+    const userInfo = await getDocumentById({
+      collection: "users",
+      doc: user.sub,
+    });
+
+    if (userInfo.exists) {
+      dispatch(signInSuccess({ ...userInfo.data(), userId: userInfo.id }));
+
+      let userLocalStotage = encodeValue({ id_token: user.idToken });
+      window.localStorage.setItem(KEY_USER, userLocalStotage);
     }
-  };
+  } catch (error) {
+    dispatch(signInError(error));
+    window.localStorage.removeItem(KEY_USER);
+    throw new Error("something goes wrong");
+  }
+};
 
-export const reSignInWithCredentials = () => 
-  async (dispatch, getState, firebase) => {
-    const doAuthGoogleWithCredentials = firebase.doAuthGoogleWithCredentials;
-    const getDocumentById = firebase.getDocumentById;
+export const signOutUser = () => async (dispatch, getState, firebase) => {
+  const singOutCurrentUser = firebase.singOutUser;
+  try {
+    await singOutCurrentUser();
+    dispatch(signOut());
+    window.localStorage.removeItem(KEY_USER);
+  } catch (error) {
+    console.log("reducer: ", error);
+  }
+};
 
-    dispatch(signInStart());
+export const updateUserInformationAccount = ({
+  collection,
+  doc,
+  data,
+}) => async (dispatch, getState, firebase) => {
+  const updateDocById = firebase.updateDocById;
+  const getDocumentById = firebase.getDocumentById;
 
-     try {
-       const user = await doAuthGoogleWithCredentials();
-       const userInfo = await getDocumentById({
-         collection: "users",
-         doc: user.sub,
-       });
+  dispatch(updateUserInformationStart());
 
-       if (userInfo.exists) {
-         dispatch(signInSuccess({ ...userInfo.data(), userId: userInfo.id }));
+  try {
+    await updateDocById({ collection, doc, data });
 
-         let userLocalStotage = encodeValue({ id_token: user.idToken });
-         window.localStorage.setItem("user_owloptics", userLocalStotage);
-       }
-     } catch (error) {
-       dispatch(signInError(error));
-       window.localStorage.clear();
-       throw new Error("something goes wrong")
-     }
-  };
-
-export const signOutUser = () =>
-  async (dispatch, getState, firebase) =>{
-    const singOutCurrentUser = firebase.singOutUser;
-    try {
-      await singOutCurrentUser();
-      dispatch(signOut());
-      window.localStorage.clear();
-      
-    } catch (error) {
-      console.log("reducer: ",error);
+    const userInfo = await getDocumentById({ collection, doc });
+    if (userInfo.exists) {
+      dispatch(
+        updateUserInformationSuccess({
+          ...userInfo.data(),
+          userId: doc,
+        })
+      );
     }
-  };
+  } catch (error) {
+    dispatch(updateUserInformationError(error));
+  }
+};
 
-export const updateUserInformationAccount = ({ collection, doc, data }) => 
-
-  async (dispatch, getState, firebase)=>{
-    const updateDocById = firebase.updateDocById;
-    const getDocumentById = firebase.getDocumentById;
-
-    dispatch(updateUserInformationStart());
-
-    try {
-      await updateDocById({ collection, doc, data });
-
-      const userInfo = await getDocumentById({ collection, doc });
-      if (userInfo.exists) {
-        dispatch(
-          updateUserInformationSuccess({
-            ...userInfo.data(),
-            userId: doc,
-          })
-        );
-      }
-    } catch (error) {
-      dispatch(updateUserInformationError(error))
-    }
-  };
+export const uploadGlasses = (glasses) => async (
+  dispatch,
+  getState,
+  firebase
+) => {
+  // console.log("try to");
+  const uploadLenses = firebase.uploadLenses;
+  await uploadLenses(glasses);
+};

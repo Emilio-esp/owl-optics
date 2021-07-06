@@ -25,6 +25,17 @@
   .form-label {
     @apply w-full font-arial font-normal tracking-widest text-xs
   }
+  .modal-product {
+    @apply bg-black flex justify-center items-center h-screen absolute top-2/4 left-0 z-10 transform -translate-y-2/4
+  }
+
+  .btn-presc {
+    @apply sm:text-xs bg-gray-400 uppercase text-white text-center tracking-widest cursor-pointer inline p-2 outline-none
+  }
+
+  .p-tag {
+    @apply w-full font-arial font-light tracking-widest text-xs m-0  text-left
+  }
 }
 
 @layer utilities {

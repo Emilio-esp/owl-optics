@@ -5,12 +5,21 @@ import { useSelector } from "react-redux";
 import ShoppingCart from "../components/ShoppingCart";
 import UserLoggedMenu from "../components/UserLoggedMenu";
 import homeLogo from "../images/owl_home.png";
+import ShopSubMenu from "./ShopSubMenu";
 
 const Header = ({ inView }) => {
   const location = useLocation();
-  const userLogged = useSelector(state => state.user.data);
-  
-  const isCostumerRoute = location.pathname.includes('costumer');
+  const userLogged = useSelector((state) => state.user.data);
+  const currentPath = location.pathname;
+
+  const ShowSubmenu =
+    currentPath.includes("costumer") && userLogged
+      ? UserLoggedMenu
+      : ["shop", "eins", "zwei", "vier", "drei", "funf"].includes(
+          currentPath.split("/")[currentPath.split("/").length - 1]
+        )
+      ? ShopSubMenu
+      : null;
 
   inView = location.pathname !== "/" ? true : inView;
 
@@ -37,11 +46,11 @@ const Header = ({ inView }) => {
                 <img alt="logo" src={homeLogo} />
               </Link>
             </li>
-            <li className="p-3 sm:p-8">Dark</li>
+            
           </ul>
           <ShoppingCart />
 
-          {userLogged && isCostumerRoute && <UserLoggedMenu />}
+          {ShowSubmenu && <ShowSubmenu />}
         </ul>
       </nav>
     </header>

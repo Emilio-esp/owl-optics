@@ -47,7 +47,7 @@ const SubMenu = ({ subMenuRoutes }) => {
   };
 
   return (
-    <Wrapper className="absolute top-3 left-0 sm:top-8 sm:left-12">
+    <Wrapper className="z-30 absolute top-3 left-0 sm:top-8 sm:left-12">
       <img
         ref={menuIconRef}
         onClick={handleOpenMenu}
@@ -59,7 +59,7 @@ const SubMenu = ({ subMenuRoutes }) => {
 
       <ul ref={menuRef} className="flex">
         {subMenuRoutes.map((subMenu) => (
-          <li key={subMenu.path} className="pl-4 pr-4">
+          <li key={subMenu.path} className="pl-4 pr-4 bg-gray-100">
             <NavLink
               onClick={(e) => handleOnClickLink(e, subMenu)}
               exact

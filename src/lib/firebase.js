@@ -26,6 +26,56 @@ class Firebase {
     return docRef;
   };
 
+  getSnapShotDataFromQuery = (querySnapShot, addUid) => {
+    const res = [];
+
+    querySnapShot.forEach((doc) => {
+      if (doc.exists) {
+        if (addUid) {
+          res.push({ ...doc.data(), id: doc.id });
+        } else {
+          res.push(doc.data());
+        }
+      }
+    });
+    // console.log(res);
+    return res;
+  };
+
+  buildQuery = async ({ collection, where, limit, orderBy } = {}) => {
+    let query = this.db.collection(collection);
+
+    if (where) {
+      const { field, op, value } = where;
+      query = query.where(field, op, value);
+    }
+    if (orderBy) {
+      const { field, op } = orderBy;
+      query = query.orderBy(field, op);
+    }
+    if (limit) {
+      query = query.limit(limit);
+    }
+
+    return query;
+  };
+
+  getCollectionData = async ({
+    collection,
+    where,
+    limit,
+    orderBy,
+    addUid = true,
+  } = {}) => {
+    if (!collection) throw new Error("you have to provide a collection");
+
+    const query = await this.buildQuery({ collection, where, limit, orderBy });
+    const querySnapShot = await query.get();
+    // console.log(querySnapShot);
+    const data = await this.getSnapShotDataFromQuery(querySnapShot, addUid);
+    return data;
+  };
+
   getDocumentById = ({ collection, doc }) => {
     return new Promise(async (resolve, reject) => {
       let docRef = this.getRef({ collection, doc });
@@ -46,7 +96,7 @@ class Firebase {
 
       try {
         docRef = await docRef.update(data);
-        console.log(docRef);
+        // console.log(docRef);
         resolve(true);
       } catch (error) {
         reject(false);
@@ -82,7 +132,7 @@ class Firebase {
         let credential;
         try {
           credential = firebase.auth.GoogleAuthProvider.credential(
-          currentUser.id_token
+            currentUser.id_token
           );
         } catch (err) {
           reject(err);
@@ -105,7 +155,7 @@ class Firebase {
 
           resolve(userInfo);
         } catch (error) {
-          reject(error)
+          reject(error);
         }
       }
       reject(new Error("user not available in localstorage!"));
@@ -134,6 +184,7 @@ class Firebase {
 
       try {
         const docRef = this.db.collection(collection);
+
         if (id) {
           currentUser = await this.getDocumentById({ collection, doc: id });
           if (currentUser.exists) {
@@ -155,6 +206,23 @@ class Firebase {
       }
     });
   };
+
+  uploadLenses = async(glasses)=> {
+    // console.log(glasses[0].name);
+    // console.log(this.db);
+    const docRef = this.db.collection("glasses");
+    let idDoc;
+
+    for (let i = 0; i < glasses.length; i++) {
+
+      idDoc = glasses[i].name;
+      let data = glasses[i];
+      await docRef.doc(idDoc).set(data);
+    }
+
+    console.log("all glasses has been Inserted in firestore");
+
+  }
 }
 
 export default Firebase;

@@ -1,0 +1,27 @@
+
+[
+    {
+        "privacy": "Inquiry, processing and usage of your data",
+        "description": "You can visit our site without giving personal information. We merely store access data without personal reference, e. g. the name of your internet service provider, the site which you are visiting us from or the name of the requested file. These data are evaluated exclusively for the improvement of our range of products and allow no conclusion concerning you personally. Personal data are only collected if you communicate them to us voluntarily within the scope of your goods order or when opening a customer account. Without your explicit consent, we will use the data communicated by you exclusively for the execution and handling of your order. At the completed handling of the contract and the full payment of the purchase price your data are blocked for further use and deleted at the expiration of the tax and trade law regulations, unless you have explicitly agreed to the further usage of your data. We have removed the newsletter sign up from our website back in 2017. Long before EU GDRP and we will have no newsletter sign up until we come up with a bullet-proof and elegant way for new subscribers to sign up. You can still receive our newsletter If you subscribed to it in the past and opted in to stay on board. In this case we'll continue to use your Email address for our own marketing purposes with your consent until you unsubscribe from the newsletter by clicking at the link we provide at the bottom of every newsletter or sending an email to hejhej@owloptics.com. Unsubscribing is possible at any time."
+    },
+    {
+        "privacy": "Usage of cookies",
+        "description": "We use cookies on different sites to make your experience on our website more pleasant and enable the usage of certain functions. They are small text files which are deposited on your computer. Most of the cookies we use are deleted from your harddisk when you end your browser session (so-called session cookies). Other cookies remain on your computer and enable us to recognise your computer at your next visit (so-called permanent cookies). These cookies serve the purpose of welcoming you with your username and spare you from re-entering your password or filling in forms with your data in the case of follow-up orders. Our partner businesses are not allowed to inquire, process or use personal data via cookies through our website."
+    },
+    {
+        "privacy": "Transfer of personal data",
+        "description": "A transfer of your data takes place to the freight forwarder assigned by us within the scope necessary for the delivery of your goods. For the handling of payment we transfer your payment data to the financial institution assigned for the payment."
+    },
+    {
+        "privacy": "Right of access",
+        "description": "According to the Federal Data Security Law and EU General Data Protection Regulation (EU-GDPR) you have the right to free access to your stored data as well as, the right to the correction, blocking or deletion of these data."
+    },
+    {
+        "privacy": "Contact for data security",
+        "description": "For questions concerning the inquiry, processing or usage of your personal data, for information, correction, blocking or deletion of data as well as withdrawal of granted agreements, please refer to: OWL OPTICS David Kamp (Owner) Sonnenburger Strasse 63 10437 Berlin Germany Email hejhej@owloptics.com"
+    },
+    {
+        "privacy": "Privacy",
+        "description": "During the ordering process your personal data are transmitted with SSL via internet in an encoded form. We secure our website and other systems by means of technical and organisational measures against the loss, destroyal, access, alteration or dispersion of your data by unauthorised persons. The access to your customer account is only possible after entering your personal password. You should always handle your access information confidentially and close the browser window after ending communication with us, especially if you share your computer with others."
+    }
+]

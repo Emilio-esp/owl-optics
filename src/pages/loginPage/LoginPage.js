@@ -16,8 +16,11 @@ const LoginPage = () => {
   const isUserAvalable = useSelector((state) => state.user);
 
   const handleGoogleSignIn = async () => {
+    const redirectTo = localStorage.getItem("last_path_owloptics") || "/costumer";
+    console.log(redirectTo);
     await dispatch(userLogin());
-    history.push("/costumer");
+
+    history.push(redirectTo);
   };
 
   return (
